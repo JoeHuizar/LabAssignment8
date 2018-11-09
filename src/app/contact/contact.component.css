@@ -9,6 +9,6 @@
 
 .contact-grid{
     display:grid;
-    margin: 20px;
+    margin: 20px auto;
     width: 90%;
 }
