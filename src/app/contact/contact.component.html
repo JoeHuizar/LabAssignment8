@@ -54,7 +54,7 @@
         <td *ngIf="!contact.editing">{{contact.email}}</td>
         <td *ngIf="!contact.editing">{{contact.phone}}</td>
         <td *ngIf="!contact.editing">
-          X
+          <button type="button" class="btn btn-danger contact-button">X</button>
         </td>
 
 
@@ -75,7 +75,7 @@
           <input type="text" class="form-control" placeholder="Phone" aria-label="Phone" aria-describedby="basic-addon1">
         </td>
         <td *ngIf="contact.editing">
-          X
+          <button type="button" class="btn btn-success contact-button">Save</button>
         </td>
       </tr>
     </tbody>
