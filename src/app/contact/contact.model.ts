@@ -19,7 +19,7 @@ export class Contact {
 
     constructor(contact: IContact) {
         contact.editing = this.setState(contact);
-        Object.assign(this, contact)
+        Object.assign(this, contact);
     }
 
     setState(contact: IContact) {

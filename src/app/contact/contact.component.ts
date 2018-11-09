@@ -14,8 +14,7 @@ export class ContactComponent implements OnInit {
 
   async ngOnInit() {
     this.contacts= await this.loadItemsFromFile();
-    
-  }
+    }
 
   async loadItemsFromFile() {
     const data = await this.http.get('assets/contacts.json').toPromise();
